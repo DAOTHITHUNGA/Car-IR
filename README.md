@@ -6,15 +6,15 @@
 Link slide báo cáo: https://docs.google.com/presentation/d/1TvNVV9LOqzLWyRgsVkUVMf7Wa7kspsIE5MTLsd3ZPGY/edit?usp=sharing
 
 
-###Run this project at google colab###
+###Run this project with google colab###
 
 Clone the repo into goole drive (recommended direction: /MyDrive/Colab Notebooks/Car-IR)    
     
-RUN "Truy Vấn-IR.ipynb" file in google colab
+RUN "Truy Vấn-IR.ipynb" file with google colab
 
 ![image](https://user-images.githubusercontent.com/61963734/104850612-aa8c1780-5922-11eb-9b41-e3d64d21868c.png)
 
-Connect to a Runtime with GPU
+Connect to a GPU Runtime
 
     SET UP
         1.Mount drive: drive.mount("/content/drive")
