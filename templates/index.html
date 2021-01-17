@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+	<title>Thu Nga De Thuong</title>
+	<meta charset="utf-8">
+	<!-- bootstrap online -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		</head>
+	
+    <body>    
+    <div class="container">
+      <div class="page-header">
+        <h3><strong><p style="color:green"><img src="https://tuoitre.uit.edu.vn/wp-content/uploads/2015/07/logo-uit-300x248.png" style="width:120px;height:100px">ĐỒ ÁN TRUY VẤN ĐA PHƯƠNG TIỆN</p></strong></h3> 
+        
+        <div class="jumbotron">
+          <p><h2>Sinh viên thực hiện</h2>Đào Thị Thu Nga 18521135<br>Nguyễn Khánh Toàn 18521509</p>				  
+        </div>				
+      </div>
+      <ul class="nav nav-tabs nav-justified">
+        <li class="active"><a href="#">TÌM KIẾM ẢNH</a></li>
+        <li><a href="#">SOURCE CODE</a></li>
+        <li><a href="#">DATA</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+      <form method="POST" enctype="multipart/form-data">
+          <input type="file" name="query_img"><br>
+          <input type="submit">
+      </form>            
+			<p class="uppercase" style="background-color:rgb(153, 153, 255)"><strong>Query:</strong> </p>
+      {% if query_path %}
+      <img src="{{ query_path }}" width="300px">
+      {% endif %}
+			<p class="uppercase" style="background-color:rgb(255, 179, 255)"><strong>Results:</strong> </p>
+      {% for score in scores %}
+      <figure style="float: left; margin-right: 20px; margin-bottom: 20px;">
+        <img src="{{ score[1] }}" style="height:200px;">
+        <figcaption>{{ score[2] }}<a target="_blank" href="{{score[3]}}"><br><strong>Xem thông tin</strong></a><br>Dist= {{ score[0] }}</figcaption>                
+      </figure>
+      {% endfor %}
+    </div>
+		<footer class="text-muted">
+			<div class="container">
+				
+				<p class="float-right">
+				  <center>--<br/><a href="#">Back to top</a></center>
+				</p>
+				<p>
+					© 2021 AT Tran, contact me: <a href="https://facebook.com">Facebook</a>, <a href="https://mail.google.com">Google</a>, <a href="https://mail.com"><span class="glyphicon glyphicon-envelope"></span></a>.
+				</p>
+			</div>
+		</footer>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</html>
