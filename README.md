@@ -1,6 +1,6 @@
 ###Run this project at google colab###
 
-Clone the repo into goole drive (recommended direction: /MyDrive/Colab Notebooks/"Car-IR")    
+Clone the repo into goole drive (recommended direction: /MyDrive/Colab Notebooks/Car-IR)    
     
 RUN "Truy Vấn-IR.ipynb" file in google colab
 
@@ -18,7 +18,10 @@ Connect to a Runtime with GPU
         2.Waiting for a second
         3.Click the 2nd link to open the web app (http://****.ngrok.io)
 ![image](https://user-images.githubusercontent.com/61963734/104850763-9268c800-5923-11eb-9b0b-cba1035ead8b.png)
-
+![image](https://user-images.githubusercontent.com/61963734/104850986-c690b880-5924-11eb-8a41-c337c2f19e5b.png)
+![image](https://user-images.githubusercontent.com/61963734/104851038-0a83bd80-5925-11eb-8d9f-5844cd2fdf63.png)
+![image](https://user-images.githubusercontent.com/61963734/104851074-4c146880-5925-11eb-9f7b-b17d4c82369d.png)
+![image](https://user-images.githubusercontent.com/61963734/104851143-c93fdd80-5925-11eb-96c5-0d7d07a0de38.png)
 
     SET UP NEW DATASET
 
