@@ -1,8 +1,9 @@
 ĐỒ ÁN TRUY VẤN ĐA PHƯƠNG TIỆN
-Sinh viên thực hiện
-Đào Thị Thu Nga 18521135
-Nguyễn Khánh Toàn 18521509
-https://docs.google.com/presentation/d/1TvNVV9LOqzLWyRgsVkUVMf7Wa7kspsIE5MTLsd3ZPGY/edit?usp=sharing
+
+    Sinh viên thực hiện
+    Đào Thị Thu Nga 18521135
+    Nguyễn Khánh Toàn 18521509
+Link slide báo cáo: https://docs.google.com/presentation/d/1TvNVV9LOqzLWyRgsVkUVMf7Wa7kspsIE5MTLsd3ZPGY/edit?usp=sharing
 
 
 ###Run this project at google colab###
