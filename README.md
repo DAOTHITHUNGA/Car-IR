@@ -17,7 +17,7 @@ Connect to a Runtime with GPU
         1.Run server.py
         2.Waiting for a second
         3.Click the 2nd link to open the web app (http://****.ngrok.io)
-        ![image](https://user-images.githubusercontent.com/61963734/104850763-9268c800-5923-11eb-9b0b-cba1035ead8b.png)
+![image](https://user-images.githubusercontent.com/61963734/104850763-9268c800-5923-11eb-9b0b-cba1035ead8b.png)
 
 
     SET UP NEW DATASET
